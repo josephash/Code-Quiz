@@ -141,4 +141,8 @@ $(document).ready(function () {
 	$("#D").click(function () {
 		grade("D");
 	});
+	$("#save").click(function () {
+		$("#save").html("Saved!");
+		$("#save").attr("disabled", true);
+	});
 });
